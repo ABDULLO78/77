@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main() {
+    int N, K;
+    std::cin >> N >> K;
+
+    int result = K / N;
+
+    std::cout << result << std::endl;
+
+    return 0;
+}
